@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNg Regression Suite" thread-count="3" parallel="tests" verbose ="4">
+
+
+
+
+<test name="OpenCart Test">
+	<parameter name="url" value="https://naveenautomationlabs.com/opencart/"/>
+	<parameter name="browser" value="firefox"/>
+	
+	<classes>
+		<class name="testcases.OpenCartTest"/>
+		
+	</classes>
+</test>
+
+</suite>
